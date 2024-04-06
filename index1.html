@@ -161,7 +161,7 @@
                 height="150"
               />
               <p>Water and Wind Resistant cream</p>
-              <button id="btn1" class="btn1">In Stock</button>
+              <button type="submit" id="btn1" class="btn1">In Stock</button>
               <div class="item__span">
                 <div id="bir">1</div>
                 <div id="ikki">
@@ -180,7 +180,7 @@
                 width="14"
                 height="15"
               />
-              <button class="btn2">ADD TO CART</button>
+              <button type="submit" class="btn2">ADD TO CART</button>
             </div>
             <hr />
             <div class="item__cart">
@@ -210,7 +210,7 @@
                 width="14"
                 height="15"
               />
-              <button class="btn2">ADD TO CART</button>
+              <button type="submit" class="btn2">ADD TO CART</button>
             </div>
             <hr />
             <div class="item__cart">
@@ -240,7 +240,7 @@
                 width="14"
                 height="15"
               />
-              <button class="btn2">ADD TO CART</button>
+              <button type="submit" class="btn2">ADD TO CART</button>
             </div>
             <hr />
           </div>
@@ -258,14 +258,14 @@
                   <option value=""></option>
                   <option value=""></option>
                 </select>
-                <form>
-                  <input id="main" type="text" placeholder="Postcode / ZIP" />
-                  <button>ESTIMATE</button>
+                <form id="submit">
+                  <input id="main input" type="text" placeholder="Postcode / ZIP" />
+                  <button type="submit">ESTIMATE</button>
                 </form>
                 <h2>Discount Coupon Code</h2>
-                <form>
-                  <input id="main" type="password" placeholder="Coupon Code" />
-                  <button>APPLY CODE</button>
+                <form id="submit" >
+                  <input id="main input" type="password" placeholder="Coupon Code" />
+                  <button type="submit">APPLY CODE</button>
                 </form>
               </div>
             </div>
@@ -288,8 +288,8 @@
                   <hr />
                 </div>
               </div>
-              <button>UPDATE CART</button>
-              <button>CHECKOUT</button>
+              <button type="submit">UPDATE CART</button>
+              <button type="submit">CHECKOUT</button>
             </div>
           </div>
         </div>
@@ -367,10 +367,11 @@
                 information.
               </p>
               <div class="btn">
-                <input type="email" placeholder="Your email address" />
-
-                <button>Sign Up</button>
-              </div>
+                <form action="" class="btn" id="submit">
+                 <input id="input" type="email" placeholder="Your email address" />
+                 <button type="submit">Sign Up</button>
+                </form>
+               </div>
             </div>
           </div>
         </div>

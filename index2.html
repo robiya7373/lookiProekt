@@ -177,7 +177,7 @@
                 width="14"
                 height="15"
               />
-              <button class="btn2">ADD TO CART</button>
+              <button type="submit" class="btn2">ADD TO CART</button>
             </div>
             <hr />
             <div class="item__cart">
@@ -188,7 +188,7 @@
                 height="150"
               />
               <p>Originals Kaval nail polish</p>
-              <button class="btn1">In Stock</button>
+              <button type="submit" class="btn1">In Stock</button>
               <div class="item__span">
                 <div id="bir">1</div>
                 <div id="ikki">
@@ -207,7 +207,7 @@
                 width="14"
                 height="15"
               />
-              <button class="btn2">ADD TO CART</button>
+              <button type="submit" class="btn2">ADD TO CART</button>
             </div>
             <hr />
             <div class="item__cart">
@@ -218,7 +218,7 @@
                 height="150"
               />
               <p>New Balance Arish makeup box</p>
-              <button id="btn1" class="btn1">In Stock</button>
+              <button type="submit" id="btn1" class="btn1">In Stock</button>
               <div class="item__span">
                 <div id="bir">1</div>
                 <div id="ikki">
@@ -237,58 +237,10 @@
                 width="14"
                 height="15"
               />
-              <button class="btn2">ADD TO CART</button>
+              <button type="submit" class="btn2">ADD TO CART</button>
             </div>
             <hr />
           </div>
-          <!-- <div class="item__info d__flex">
-            <div class="info__main">
-              <div>
-                <h1>Calculate Shipping</h1>
-                <select name="" id="main">
-                  <option value="Select country">Select Country</option>
-                  <option value=""></option>
-                  <option value=""></option>
-                </select>
-                <select id="main">
-                  <option value="Select State">Select State</option>
-                  <option value=""></option>
-                  <option value=""></option>
-                </select>
-                <form>
-                  <input id="main" type="text" placeholder="Postcode / ZIP" />
-                  <button>ESTIMATE</button>
-                </form>
-                <h2>Discount Coupon Code</h2>
-                <form>
-                  <input id="main" type="password" placeholder="Coupon Code" />
-                  <button>APPLY CODE</button>
-                </form>
-              </div>
-            </div>
-            <div class="main1">
-              <div class="info__main2">
-                <div class="main2">
-                  <div class="d__flex info__title2">
-                    <h1>Product</h1>
-                    <h1>Total</h1>
-                  </div>
-                  <div class="d__flex info__title2">
-                    <h1>Shipping</h1>
-                    <p>Free shipping</p>
-                  </div>
-                  <hr />
-                  <div class="d__flex info__title2">
-                    <h1>Total</h1>
-                    <h2>$392</h2>
-                  </div>
-                  <hr />
-                </div>
-              </div>
-              <button>UPDATE CART</button>
-              <button>CHECKOUT</button>
-            </div>
-          </div> -->
         </div>
       </div>
     </main>
@@ -364,9 +316,10 @@
                 information.
               </p>
               <div class="btn">
-                <input type="email" placeholder="Your email address" />
-
-                <button>Sign Up</button>
+               <form action="" class="btn" id="submit">
+                <input id="input" type="email" placeholder="Your email address" />
+                <button type="submit">Sign Up</button>
+               </form>
               </div>
             </div>
           </div>
@@ -385,7 +338,6 @@
         </div>
       </div>
     </footer>
-
     
     <script src="./add.js"></script>
   </body>

@@ -127,3 +127,19 @@ let search=document.querySelector(".search");
 search.onclick=function(){
   document.querySelector(".contan").classList.toggle('active')
 }
+
+
+const input=document.getElementById("input");
+const submit=document.getElementById("submit");
+
+submit.addEventListener("submit",(e)=>
+  e.preventDefault());
+
+
+input.addEventListener("input",(e)=>{
+  const res =e.target.value;
+let result =res.search(passwordFor);
+if(result==0){
+  input.style.borderBlockColor="green"
+}
+});
