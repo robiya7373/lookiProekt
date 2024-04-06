@@ -1,0 +1,21 @@
+@mixin dFlex ($a-items:center, $j-content:center) {
+    display: flex;
+    align-items: $a-items;
+    justify-content: $j-content;
+}
+
+@mixin buttons{
+    background-color: #FFF;
+    color: #9C4DF4;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #9C4DF4;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    &:hover{
+        background-color: #9C4DF4;
+        color: #FFF;
+        border: none;
+        transition: 0.3s;
+    }
+}

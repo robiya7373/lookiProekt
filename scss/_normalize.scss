@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppicon" sans-serif;
+  font-family: "Raleway" sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 ;
+}
+.d__flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d__flex2{
+  display: flex;
+  align-items: center;
+}

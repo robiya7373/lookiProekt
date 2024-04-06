@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="header__top">
+            <div class="header__icon">
+              <ul class="header__icon">
+                <li>
+                  <a href="https://facebook.com"
+                    ><img
+                      src="./assets/image/icon/iconsFacebook.svg"
+                      alt="iconFacebook"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com">
+                    <img
+                      src="./assets/image/icon/iconTwitter.svg"
+                      alt="iconTwitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://youtube.com">
+                    <img
+                      src="./assets/image/icon/iconsYoutube.svg"
+                      alt="iconYoutube"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com">
+                    <img
+                      src="./assets/image/icon/instagramIcon.svg"
+                      alt="instagramIcon"
+                    />
+                  </a>
+                </li>
+                <li class="phone">
+                  <a href="(+123)4567890">
+                    <img
+                      src="./assets/image/icon/IconPhone.svg"
+                      alt="IconPhone"
+                    />
+                    <p>(+123)4567890</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__lan">
+              <select class="header__option">
+                <option value="Setting">Setting</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+              <select class="header__option">
+                <option value="USD $">USD $</option>
+                <option value="RUBL">RUBL</option>
+                <option value="SUM">SUM</option>
+              </select>
+              <div>
+                <img
+                  src="./assets/image/icon/flag.svg"
+                  alt="flag"
+                  width="16"
+                  height="11"
+                />
+                <select class="header__option">
+                  <option value="english">ENGLISH</option>
+                  <option value="english">RUSSIA</option>
+                  <option value="english">UZBEK</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__nav">
+        <div class="container">
+          <div class="header__logo">
+            <div>
+              <img src="./assets/image/icon/logo.png.png" alt="logo" />
+            </div>
+            <div>
+              <ul>
+                <li><a class="home" href="#">HOME</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT US</a></li>
+              </ul>
+            </div>
+            <div class="header__seorch d__flex">
+              <div class="searchInput">
+                <input type="text" placeholder=" search" id="searchInput" />
+                <img
+                  class="seorch"
+                  src="./assets/image/icon/IconSearch.svg"
+                  alt="search"
+                />
+              </div>
+              <div>
+                <img
+                  src="./assets/image/icon/IconShuffle.svg"
+                  alt="IconShuffle"
+                />
+                <img src="./assets/image/icon/IconLike.svg" alt="IconLike" />
+                <img src="./assets/image/icon/IconBag.svg" alt="IconBag" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="cart">
+      <div class="container">
+        <div>
+          <h1>Cart</h1>
+          <span class="cart__line"></span>
+          <ul>
+            <li>Home</li>
+            <button>></button>
+            <li>Cart</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="item">
+          <div class="item__title">
+            <h1>Your cart items</h1>
+            <hr />
+            <div class="item__praduct">
+              <ul>
+                <li>Product Image</li>
+                <li>Product Name</li>
+                <li>Stock Status</li>
+                <li>Qty</li>
+                <li>Price</li>
+                <li>Action</li>
+                <li>Checkout</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item__carts">
+            <div class="item__cart">
+              <img
+                src="./assets/image/img/item1.png"
+                alt="item1"
+                width="150"
+                height="150"
+              />
+              <p>Water and Wind Resistant cream</p>
+              <button id="btn1" class="btn1">In Stock</button>
+              <div class="item__span">
+                <div id="bir">1</div>
+                <div id="ikki">
+                  <div class="span__r">
+                    <span id="one"><</span>
+                  </div>
+                  <div class="span__r">
+                    <span id="two">></span>
+                  </div>
+                </div>
+              </div>
+              <p>$38.24</p>
+              <img
+                src="./assets/image/icon/delet.png"
+                alt="delet"
+                width="14"
+                height="15"
+              />
+              <button class="btn2">ADD TO CART</button>
+            </div>
+            <hr />
+            <div class="item__cart">
+              <img
+                src="./assets/image/img/item2.png"
+                alt="item2"
+                width="150"
+                height="150"
+              />
+              <p>Originals Kaval nail polish</p>
+              <button class="btn1">In Stock</button>
+              <div class="item__span">
+                <div id="bir">1</div>
+                <div id="ikki">
+                  <div class="span__r">
+                    <span id="one"><</span>
+                  </div>
+                  <div class="span__r">
+                    <span id="two">></span>
+                  </div>
+                </div>
+              </div>
+              <p>$38.24</p>
+              <img
+                src="./assets/image/icon/delet.png"
+                alt="delet"
+                width="14"
+                height="15"
+              />
+              <button class="btn2">ADD TO CART</button>
+            </div>
+            <hr />
+            <div class="item__cart">
+              <img
+                src="./assets/image/img/item3.png"
+                alt="item3"
+                width="150"
+                height="150"
+              />
+              <p>New Balance Arish makeup box</p>
+              <button id="btn1" class="btn1">In Stock</button>
+              <div class="item__span">
+                <div id="bir">1</div>
+                <div id="ikki">
+                  <div class="span__r">
+                    <span id="one"><</span>
+                  </div>
+                  <div class="span__r">
+                    <span id="two">></span>
+                  </div>
+                </div>
+              </div>
+              <p>$38.24</p>
+              <img
+                src="./assets/image/icon/delet.png"
+                alt="delet"
+                width="14"
+                height="15"
+              />
+              <button class="btn2">ADD TO CART</button>
+            </div>
+            <hr />
+          </div>
+          <div class="item__info d__flex">
+            <div class="info__main">
+              <div>
+                <h1>Calculate Shipping</h1>
+                <select name="" id="main">
+                  <option value="Select country">Select Country</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <select id="main">
+                  <option value="Select State">Select State</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <form>
+                  <input id="main" type="text" placeholder="Postcode / ZIP" />
+                  <button>ESTIMATE</button>
+                </form>
+                <h2>Discount Coupon Code</h2>
+                <form>
+                  <input id="main" type="password" placeholder="Coupon Code" />
+                  <button>APPLY CODE</button>
+                </form>
+              </div>
+            </div>
+            <div class="main1">
+              <div class="info__main2">
+                <div class="main2">
+                  <div class="d__flex info__title2">
+                    <h1>Product</h1>
+                    <h1>Total</h1>
+                  </div>
+                  <div class="d__flex info__title2">
+                    <h1>Shipping</h1>
+                    <p>Free shipping</p>
+                  </div>
+                  <hr />
+                  <div class="d__flex info__title2">
+                    <h1>Total</h1>
+                    <h2>$392</h2>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <button>UPDATE CART</button>
+              <button>CHECKOUT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__end">
+        <div class="container">
+          <div class="footer__navigation">
+            <div class="footer__endLogo">
+              <img
+                src="./assets/image/icon/logo.png.png"
+                alt="logo"
+                width="114"
+                height="34"
+              />
+              <p>
+                We are a team of professional designers and developers <br />
+                that create high quality wordpress plugins, Html, React <br />
+                Template.
+              </p>
+              <div class="footer__icon">
+                <img
+                  src="./assets/image/icon/footerIconI.svg"
+                  alt="footerIconI"
+                  width="40"
+                  height="40"
+                />
+                <img
+                  src="./assets/image/icon/footerIconY.svg"
+                  alt="footerIconY"
+                  width="40"
+                  height="40"
+                />
+                <img
+                  src="./assets/image/icon/footerIconT.svg"
+                  alt="footerIconT"
+                  width="40"
+                  height="40"
+                />
+                <img
+                  src="./assets/image/icon/footerIconF.svg"
+                  alt="footerIconF"
+                  width="40"
+                  height="40"
+                />
+              </div>
+            </div>
+            <div class="footer__endInfo">
+              <p>Information</p>
+              <span class="footer__line"></span>
+              <ul>
+                <li>About us</li>
+                <li>Payment</li>
+                <li>Contact us</li>
+                <li>Stores</li>
+              </ul>
+            </div>
+            <div class="footer__endInfo">
+              <p>Social Links</p>
+              <span class="footer__line"></span>
+              <ul>
+                <li>New products</li>
+                <li>Best sales</li>
+                <li>Login</li>
+                <li>My account</li>
+              </ul>
+            </div>
+            <div class="footer__endInfo">
+              <p>Newsletter</p>
+              <span class="footer__line"></span>
+              <p class="endInfo__text">
+                Subcribe to the TheFace mailing list to receive update on <br />
+                mnew arrivals, special offers and other discount <br />
+                information.
+              </p>
+              <div class="btn">
+                <input type="email" placeholder="Your email address" />
+
+                <button>Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__finsh">
+        <div class="container">
+          <div class="footer__finsh">
+            <div>
+              <p>Copyright © <b> HasThemes. </b> All Rights Reserved</p>
+            </div>
+            <div>
+              <img src="./assets/image/icon/carta.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./add.js"></script>
+  </body>
+</html>
