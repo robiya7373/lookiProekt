@@ -47,6 +47,12 @@ header {
     &__seorch {
       word-spacing: 28px;
       margin-right: 30px;
+      a {
+        margin-left: 20px;
+        li {
+          list-style: none;
+        }
+      }
     }
     &__logo {
       display: flex;
@@ -260,7 +266,6 @@ header {
   // border: 2px solid #000;
   border-radius: 20px;
   margin: 0 0 0 10px;
- 
 }
 
 .searchInput input {
